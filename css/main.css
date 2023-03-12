@@ -1,0 +1,22 @@
+div ul{
+    background-color: bisque;
+
+   
+    list-style: none;
+}
+div li {
+    display: inline-block ;
+    padding: 14px 16px;
+}
+@media screen and (max-width:768px) {
+    div ul{
+        background-color: rgb(255, 0, 0);
+        
+    }
+   div  li {
+        width: 100vw;
+        font-weight: bold;
+        font-size: 20px;
+
+    }
+}
