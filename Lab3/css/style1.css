@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+header {
+    background-color: #EEEEEE;
+    text-align: center;
+    height: 80px;
+    line-height: 80px;
+
+}
+.menu {
+    margin-top: 5px;
+    background-color: #EEEEEE;
+    text-align: center;
+    height: 50px;
+    line-height: 50px;
+}
+.section1 {
+    margin-top: 5px;
+    display: flex;
+    justify-content: space-around;
+    min-height: 800px;
+    text-align: center;
+    line-height: 800px;
+}
+.noiDung {
+    background-color: #EEEEEE;
+    width: 25%;
+
+}
+.noiDungChinh{
+    width: 50%;
+    background-color: #EEEEEE;
+    margin: 0 5px ;
+}
+footer{
+    margin-top: 5px;
+    background-color: #EEEEEE;
+    text-align: center;
+    height: 50px;
+    line-height: 50px;
+}
+
+@media screen and (max-width: 780px){
+    
+    .container {
+        width: 780px;
+        margin: 0 auto;
+    }
+    body{
+        background-color: black;
+    }
+
+}
