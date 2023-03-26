@@ -1,28 +1,141 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Trang chủ</title>
-    <link rel="stylesheet" href="css/main.css">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+        integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
+
 <body>
-     <nav>
-        <ul>
-            <li><a href="index.html">Trang chu</a></li>
-            <li><a href="page2.html">San pham</a></li>
-            <li><a href="contact.html  ">Lien he</a></li>
-           
-            
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <section class="top-nav">
+        <div id="logo-header">
+            <img src="img/imgTrangChu/Logo.png">
+        </div>
+        <input id="menu-toggle" type="checkbox" />
+        <label class='menu-button-container' for="menu-toggle">
+            <div class='menu-button'></div>
+        </label>
+        <ul class="menu">
+            <li>Đăng kí</li>
+            <li>Đăng nhập</li>
+            <li>Đội hình</li>
+            <li>Về chúng tôi</li>
+            <li><i class="fa-solid fa-magnifying-glass"></i></li>
         </ul>
-     </nav>
-    <div>
-        <ul>
-            <li>Trang chu</li>
-            <li>San pham</li>
-            <li>Lien he</li>
-        </ul>
+    </section>
+
+    <h1 style="width: 98%; margin: 0 auto; font-weight: bold; margin: 1em;">Bản tin MU proVip</h1>
+    <div id="banner">
+        <img src="img/imgTrangChu/Banner.jpeg" alt="">
     </div>
+
+    <h2>Tin hot</h2>
+    <section id="hotNews">
+
+        <div class="hotNews-item">
+            <a href="">
+                <div class="hotNews-img"><img src="img/imgTrangChu/tinChinh1.jpg" alt=""></div>
+                <p>CĐV MU vỗ tay khi Sancho trở lại sân cỏ</p>
+            </a>
+
+        </div>
+
+
+        <div class="hotNews-item">
+            <a href="">
+                <div class="hotNews-img"><img src="img/imgTrangChu/tinChinh2.jpeg" alt=""></div>
+                <p>MU 'đi đêm' Harry Kane, nổ bom tấn chuyển nhượng</p>
+            </a>
+
+        </div>
+    </section>
+
+
+    <h2>Tin Trong ngày</h2>
+
+    <section id="recomment-news">
+
+        <div class="recomment-news-item">
+
+
+            <div class="recomment-news-img">
+                <a href="">
+                    <img src="img/imgTrangChu/tinDeXuat1.jpg" alt=" ">
+                </a>
+            </div>
+
+
+            <p><a href="">Mu vẫn còn khả năng ăn ba trong mùa này.</a></p>
+
+
+        </div>
+        <div class="recomment-news-item">
+
+
+            <div class="recomment-news-img">
+                <a href="">
+                    <img src="img/imgTrangChu/tinDeXuat2.jpg" alt=" ">
+                </a>
+            </div>
+
+
+            <p><a href="">MU gia nhập cuộc đua giành Kaoru Mitoma</a></p>
+
+
+        </div>
+        <div class="recomment-news-item">
+
+
+            <div class="recomment-news-img">
+                <a href="">
+                    <img src="img/imgTrangChu/tinDeXuat3.jpg" alt=" ">
+                </a>
+            </div>
+
+
+            <p><a href="">Mu gặp khó với việc gia hạn với Rashford</a></p>
+
+
+        </div>
+
+        <div class="recomment-news-item">
+
+
+            <div class="recomment-news-img">
+                <a href="">
+                    <img src="img/imgTrangChu/tinDeXuat4.jpg" alt=" ">
+                </a>
+            </div>
+
+
+            <p><a href="">MU nhắm hậu vệ phải mới người Hà Lan</a></p>
+
+
+        </div>
+    </section>
+
+
+    <div id="banner-footer">
+        <img src="img/imgTrangChu/Banner-footer.png" alt="">
+    </div>
+    <footer>
+        <ul>
+           <li><a href=""><i class="fa-brands fa-facebook"></i></a></li>
+           <li><a href=""><i class="fa-brands fa-facebook-messenger"></i></a></li>
+           <li><a href=""><i class="fa-brands fa-twitter"></i></a></li>
+           <li><a href=""><i class="fa-brands fa-instagram"></i></a></li>
+           <li><a href=""><i class="fa-solid fa-phone"></i></a></li>
+          
+        </ul>
+    </footer>
+
 </body>
+
 </html>
